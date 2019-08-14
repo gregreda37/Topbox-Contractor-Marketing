@@ -3,16 +3,24 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17D0D8955C61378F3562AA21 /* Pods_TopBox_IncTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B225287229963F415CEC621 /* Pods_TopBox_IncTests.framework */; };
 		1F92BF13230334170010237C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F92BF12230334170010237C /* AppDelegate.swift */; };
 		1F92BF15230334170010237C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F92BF14230334170010237C /* ViewController.swift */; };
 		1F92BF18230334170010237C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F92BF16230334170010237C /* Main.storyboard */; };
 		1F92BF1A230334180010237C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F92BF19230334180010237C /* Assets.xcassets */; };
 		1F92BF1D230334180010237C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F92BF1B230334180010237C /* LaunchScreen.storyboard */; };
 		1F92BF28230334180010237C /* TopBox_IncTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F92BF27230334180010237C /* TopBox_IncTests.swift */; };
+		1F92BF3B230370080010237C /* homeownerlogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F92BF3A230370080010237C /* homeownerlogin.swift */; };
+		1F92BF452303A5A40010237C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1F92BF442303A5A40010237C /* GoogleService-Info.plist */; };
+		1F92BF49230431EE0010237C /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F92BF48230431EE0010237C /* SignUpViewController.swift */; };
+		1F92BF4B2304320C0010237C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F92BF4A2304320C0010237C /* HomeViewController.swift */; };
+		1F92BF5323045F1A0010237C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F92BF5223045F1A0010237C /* Constants.swift */; };
+		1F92BF552304637C0010237C /* forumUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F92BF542304637C0010237C /* forumUtilities.swift */; };
+		E20B66C9410B0F1B43C7F9EA /* Pods_TopBox_Inc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24B18AEAC97EBEEAE1D5B26F /* Pods_TopBox_Inc.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +44,18 @@
 		1F92BF23230334180010237C /* TopBox IncTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TopBox IncTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F92BF27230334180010237C /* TopBox_IncTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBox_IncTests.swift; sourceTree = "<group>"; };
 		1F92BF29230334180010237C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F92BF3A230370080010237C /* homeownerlogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeownerlogin.swift; sourceTree = "<group>"; };
+		1F92BF442303A5A40010237C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1F92BF48230431EE0010237C /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		1F92BF4A2304320C0010237C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		1F92BF5223045F1A0010237C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		1F92BF542304637C0010237C /* forumUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = forumUtilities.swift; sourceTree = "<group>"; };
+		2380B5A4F3D33EC12A122658 /* Pods-TopBox IncTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TopBox IncTests.debug.xcconfig"; path = "Target Support Files/Pods-TopBox IncTests/Pods-TopBox IncTests.debug.xcconfig"; sourceTree = "<group>"; };
+		24B18AEAC97EBEEAE1D5B26F /* Pods_TopBox_Inc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TopBox_Inc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E02782AA1B81BB9AD0F67FA /* Pods-TopBox Inc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TopBox Inc.debug.xcconfig"; path = "Target Support Files/Pods-TopBox Inc/Pods-TopBox Inc.debug.xcconfig"; sourceTree = "<group>"; };
+		54226A361BB80BD02934E76B /* Pods-TopBox Inc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TopBox Inc.release.xcconfig"; path = "Target Support Files/Pods-TopBox Inc/Pods-TopBox Inc.release.xcconfig"; sourceTree = "<group>"; };
+		8B225287229963F415CEC621 /* Pods_TopBox_IncTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TopBox_IncTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7AB1A0053C37D551BD25E2E /* Pods-TopBox IncTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TopBox IncTests.release.xcconfig"; path = "Target Support Files/Pods-TopBox IncTests/Pods-TopBox IncTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E20B66C9410B0F1B43C7F9EA /* Pods_TopBox_Inc.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +71,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17D0D8955C61378F3562AA21 /* Pods_TopBox_IncTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C4B1C1B11EE998DD4AE5A3A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24B18AEAC97EBEEAE1D5B26F /* Pods_TopBox_Inc.framework */,
+				8B225287229963F415CEC621 /* Pods_TopBox_IncTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		1F92BF06230334170010237C = {
 			isa = PBXGroup;
 			children = (
 				1F92BF11230334170010237C /* TopBox Inc */,
 				1F92BF26230334180010237C /* TopBox IncTests */,
 				1F92BF10230334170010237C /* Products */,
+				A4DED41ED23E8FB4A6A750EC /* Pods */,
+				0C4B1C1B11EE998DD4AE5A3A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,12 +110,18 @@
 		1F92BF11230334170010237C /* TopBox Inc */ = {
 			isa = PBXGroup;
 			children = (
+				1F92BF442303A5A40010237C /* GoogleService-Info.plist */,
+				1F92BF542304637C0010237C /* forumUtilities.swift */,
 				1F92BF12230334170010237C /* AppDelegate.swift */,
 				1F92BF14230334170010237C /* ViewController.swift */,
+				1F92BF3A230370080010237C /* homeownerlogin.swift */,
+				1F92BF48230431EE0010237C /* SignUpViewController.swift */,
+				1F92BF4A2304320C0010237C /* HomeViewController.swift */,
 				1F92BF16230334170010237C /* Main.storyboard */,
 				1F92BF19230334180010237C /* Assets.xcassets */,
 				1F92BF1B230334180010237C /* LaunchScreen.storyboard */,
 				1F92BF1E230334180010237C /* Info.plist */,
+				1F92BF5223045F1A0010237C /* Constants.swift */,
 			);
 			path = "TopBox Inc";
 			sourceTree = "<group>";
@@ -96,6 +135,17 @@
 			path = "TopBox IncTests";
 			sourceTree = "<group>";
 		};
+		A4DED41ED23E8FB4A6A750EC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3E02782AA1B81BB9AD0F67FA /* Pods-TopBox Inc.debug.xcconfig */,
+				54226A361BB80BD02934E76B /* Pods-TopBox Inc.release.xcconfig */,
+				2380B5A4F3D33EC12A122658 /* Pods-TopBox IncTests.debug.xcconfig */,
+				D7AB1A0053C37D551BD25E2E /* Pods-TopBox IncTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +153,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1F92BF2C230334180010237C /* Build configuration list for PBXNativeTarget "TopBox Inc" */;
 			buildPhases = (
+				3434A8553461A0534363FD77 /* [CP] Check Pods Manifest.lock */,
 				1F92BF0B230334170010237C /* Sources */,
 				1F92BF0C230334170010237C /* Frameworks */,
 				1F92BF0D230334170010237C /* Resources */,
+				F01A123FE9570BC93E067047 /* [CP] Embed Pods Frameworks */,
+				FB0E7FD0E0E676B385CD6BD1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,6 +173,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1F92BF2F230334180010237C /* Build configuration list for PBXNativeTarget "TopBox IncTests" */;
 			buildPhases = (
+				C7CF319ED448304CCEEDC510 /* [CP] Check Pods Manifest.lock */,
 				1F92BF1F230334180010237C /* Sources */,
 				1F92BF20230334180010237C /* Frameworks */,
 				1F92BF21230334180010237C /* Resources */,
@@ -178,6 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F92BF1D230334180010237C /* LaunchScreen.storyboard in Resources */,
+				1F92BF452303A5A40010237C /* GoogleService-Info.plist in Resources */,
 				1F92BF1A230334180010237C /* Assets.xcassets in Resources */,
 				1F92BF18230334170010237C /* Main.storyboard in Resources */,
 			);
@@ -192,13 +247,99 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3434A8553461A0534363FD77 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TopBox Inc-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7CF319ED448304CCEEDC510 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TopBox IncTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F01A123FE9570BC93E067047 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TopBox Inc/Pods-TopBox Inc-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TopBox Inc/Pods-TopBox Inc-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TopBox Inc/Pods-TopBox Inc-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB0E7FD0E0E676B385CD6BD1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TopBox Inc/Pods-TopBox Inc-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TopBox Inc/Pods-TopBox Inc-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TopBox Inc/Pods-TopBox Inc-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1F92BF0B230334170010237C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F92BF3B230370080010237C /* homeownerlogin.swift in Sources */,
 				1F92BF15230334170010237C /* ViewController.swift in Sources */,
 				1F92BF13230334170010237C /* AppDelegate.swift in Sources */,
+				1F92BF552304637C0010237C /* forumUtilities.swift in Sources */,
+				1F92BF5323045F1A0010237C /* Constants.swift in Sources */,
+				1F92BF49230431EE0010237C /* SignUpViewController.swift in Sources */,
+				1F92BF4B2304320C0010237C /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,15 +499,17 @@
 		};
 		1F92BF2D230334180010237C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E02782AA1B81BB9AD0F67FA /* Pods-TopBox Inc.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8K952L488L;
 				INFOPLIST_FILE = "TopBox Inc/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.topbox.TopBox.TopBox-Inc";
+				PRODUCT_BUNDLE_IDENTIFIER = com.topbox.TopBox;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -375,15 +518,17 @@
 		};
 		1F92BF2E230334180010237C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54226A361BB80BD02934E76B /* Pods-TopBox Inc.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8K952L488L;
 				INFOPLIST_FILE = "TopBox Inc/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.topbox.TopBox.TopBox-Inc";
+				PRODUCT_BUNDLE_IDENTIFIER = com.topbox.TopBox;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -392,6 +537,7 @@
 		};
 		1F92BF30230334180010237C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2380B5A4F3D33EC12A122658 /* Pods-TopBox IncTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -412,6 +558,7 @@
 		};
 		1F92BF31230334180010237C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7AB1A0053C37D551BD25E2E /* Pods-TopBox IncTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

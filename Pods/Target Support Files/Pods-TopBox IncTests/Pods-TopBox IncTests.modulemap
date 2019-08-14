@@ -1,0 +1,6 @@
+framework module Pods_TopBox_IncTests {
+  umbrella header "Pods-TopBox IncTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
